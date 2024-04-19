@@ -1,37 +1,96 @@
 @import url('https://fonts.googleapis.com/css2?family=Jersey+15&display=swap');
+body{
+    /.margin
+    margin: 0;
+    padding-top: 58px;
+}
 header{
-    background-color:  #6997DB;
+    background-color: #6997DB;
     text-align: center;
     padding: 25px;
+    color: aliceblue;
+    background-color:  #6997DB;
+    text-align: center;
     border-radius: 5px;
-    color: #c8d4e6;
+    color: #f8f8f8;
     font-family: "Jersey 15", sans-serif;
     border: solid 1px;
     border-color: rgb(0, 0, 0);
     font-size:larger;
-    animation: example 5s linear infinite;
+    animation: efecto1 5s linear infinite;
     margin-left: 20%;
     margin-right: 20%;
-
-}
-#acercademi{
-    border-bottom:solid 1px;
 }
 main{
-    margin: 10% 25% ;
-    border-bottom:solid 1px;
+    margin: 5% 20%;
+    text-align: center;
+    margin-bottom: 10%;
+    border: 1px solid #ddd;
+
 }
 nav{
+    display:block;
     text-align: center;
-    margin: 15px;
-    border-bottom:solid 1px;
+    list-style: none;
+    margin: 150px;
+    top: 0px;
+    padding: 20px;
+    margin: 0;
 }
 nav a{
-    border-bottom:solid 1px;
+    display:contents;
     padding: 10px;
-    text-decoration: none;
+    top: 0px;
+
 }
- @keyframes example {
+@keyframes efecto1 {
     0%  {background-color: #6997DB;}
-    50% {background-color: rgb(62, 107, 62);}
+    50% {background-color: #95befa;}
+}
+fieldset{
+    display:contents;
+    
+}
+#acercademi{
+    width: 60%;
+    margin: 2.5% 10%;
+    padding: 10%;
+    margin-bottom: 10%;
+    border: 1px solid #ddd;
+}
+#habilidades{
+    width: 60%;
+    margin: 2.5% 10%;
+    padding: 10%;
+    margin-bottom: 10%;
+    border: 1px solid #ddd;
+}
+#experiencia{
+    width: 60%;
+    margin: 2.5% 10%;
+    padding: 10%;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+}
+#proyectos{
+    width: 60%;
+    margin: 2.5% 10%;
+    padding: 10%;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+}
+#contacto{
+    width: 60%;
+    margin: 2.5% 10%;
+    padding: 10%;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+}
+.menufijo{
+    top: 0;
+    position: fixed;
+    left: 0;
+    width: 100%;
+    z-index: 10%;
+    transition: all 0.3s ease-in-out;
 }

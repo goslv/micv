@@ -10,17 +10,17 @@
     <header>
         <h1>José Sebastián Gómez Silva</h1>
         <h2>Ing. Informático</h2>
-
     </header>
-    <nav>
+    <nav class="menufijo">
         <a href="#acercademi">Acerca de mí</a>
         <a href="#habilidades">Habilidades</a>
         <a href="#experiencia">Experiencia</a>
+        <a href="#contacto">Contacto</a>
     </nav>
     <main>
         <section id="acercademi">
             <h2>Acerca de mí</h2>
-            <p>asdadsa</p>
+            <p>Hola! Mi nombre es José Sebastián, me desempeño como ingeniero en el sector informático, llevo trabajando en el área hace 5 años, pero no como profesional. Hoy en día tengo un mayor manejo de desarrollo de software como frontend y backend.</p>
         </section>
         <section id="habilidades">
             <h2>Habilidades</h2>
@@ -34,7 +34,7 @@
             </ol>
         </section>
         <section id="experiencia">
-            <h2>Habilidades</h2>
+            <h2>Experiencia</h2>
             <ul>
                 <li>ITS CEP
                     <ul>
@@ -63,6 +63,25 @@
                 </li>
             </ul>
         </section>
+        <section id="contacto">
+            <form action="#">
+                <h2>Contacto</h2>
+                <p>Puede ponerse en contacto conmigo enviandome un mensaje a través del siguiente formulario</p>
+                    <input type="text" name="nombre" id="nombre" placeholder="Introduce tu nombre">
+                    <br><br>
+                    <input type="text" name="telefono" id="telefono" placeholder="Introduce tu teléfono">
+                    <br><br>
+                    <input type="email" name="correo" id="correo" placeholder="Introduce tu email">
+                    <br><br>    
+                    <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Escribe tu mensaje"></textarea>
+                    <br>
+                    <input type="submit" id="enviar" value="Enviar">
+                    <br>
+            </form>
+        </section>
     </main>
+    <footer>
+        <p>Copyright &copy; 2024</p>
+    </footer>
 </body>
 </html>
