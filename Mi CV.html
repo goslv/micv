@@ -1,47 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi cv online</title>
     <link rel="stylesheet" href="cv.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Acme&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Ojuju:wght@200..800&family=Urbanist:ital,wght@0,100..900;1,100..900&family=Yanone+Kaffeesatz:wght@200..700&display=swap"
+        rel="stylesheet">
+
 </head>
+
 <body>
     <header>
         <h1>José Sebastián Gómez Silva</h1>
         <h2>Ing. Informático</h2>
     </header>
     <nav class="menufijo">
-        <a href="#acercademi">Acerca de mí</a>
-        <a href="#habilidades">Habilidades</a>
-        <a href="#experiencia">Experiencia</a>
-        <a href="#contacto">Contacto</a>
+        <a href="#" class="material-symbols-outlined">
+            roofing</a>
+        <a href="#acercademi"class="acercademi">Acerca de mí</a>
+        <a href="#habilidades"class="habilidades">Habilidades</a>
+        <a href="#experiencia"class="experiencia">Experiencia</a>
+        <a href="#contacto"class="contacto">Contacto</a>
     </nav>
     <main>
         <section id="acercademi">
             <h2>Acerca de mí</h2>
-            <p>Hola! Mi nombre es José Sebastián, me desempeño como ingeniero en el sector informático, llevo trabajando en el área hace 5 años, pero no como profesional. Hoy en día tengo un mayor manejo de desarrollo de software como frontend y backend.</p>
+            <p>Hola! Mi nombre es José Sebastián, me desempeño como ingeniero en el sector informático, llevo trabajando
+            en el área hace 5 años, pero no como profesional. Hoy en día tengo un mayor manejo de desarrollo de
+            software como frontend y backend.</p>
         </section>
         <section id="habilidades">
             <h2>Habilidades</h2>
-            <ol>
-                <li>JavaScript</li>
-                <li>HTML</li>
-                <li>CSSS</li>
-                <li>PostGreSQL</li>
+            <ul>
                 <li>Java</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>PostgreSQL</li>
                 <li>PHP</li>
-            </ol>
+            </ul>
         </section>
         <section id="experiencia">
             <h2>Experiencia</h2>
             <ul>
-                <li>ITS CEP
+                <li><b>ITS CEP</b>
                     <ul>
                         <li>Encargado del departamento tecnológico</li>
                     </ul>
                 </li>
-                <li>SHELL
+                <li><b>SHELL</b>
                     <ul>
                         <li>Secretario</li>
                     </ul>
@@ -51,14 +69,16 @@
         <section id="proyectos">
             <h2>Proyectos realizados</h2>
             <ul>
-                <li>Front-End
+                <li><b>Front-End</b>
                     <ul>
-                        <li>Desarrollador Front-End en el equipo de Desarrollo Tecnológico de la Facultad de Ciencias y Tecnología UNCA</li>
+                        <li>Desarrollador Front-End en el equipo de Desarrollo Tecnológico de la Facultad de Ciencias y
+                            Tecnología UNCA</li>
                     </ul>
                 </li>
-                <li>Back-end
+                <li><b>Back-end</b>
                     <ul>
-                        <li>Desarrollador en Java en el equipo de Desarrollo Tecnológico de la Facultad de Ciencias y Tecnología UNCA</li>
+                        <li>Desarrollador en Java en el equipo de Desarrollo Tecnológico de la Facultad de Ciencias y
+                            Tecnología UNCA</li>
                     </ul>
                 </li>
             </ul>
@@ -67,16 +87,16 @@
             <form action="#">
                 <h2>Contacto</h2>
                 <p>Puede ponerse en contacto conmigo enviandome un mensaje a través del siguiente formulario</p>
-                    <input type="text" name="nombre" id="nombre" placeholder="Introduce tu nombre">
-                    <br><br>
-                    <input type="text" name="telefono" id="telefono" placeholder="Introduce tu teléfono">
-                    <br><br>
-                    <input type="email" name="correo" id="correo" placeholder="Introduce tu email">
-                    <br><br>    
-                    <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Escribe tu mensaje"></textarea>
-                    <br>
-                    <input type="submit" id="enviar" value="Enviar">
-                    <br>
+                <input type="text" name="nombre" id="nombre" placeholder="Introduce tu nombre">
+                <br>
+                <input type="text" name="telefono" id="telefono" placeholder="Introduce tu teléfono">
+                <br>
+                <input type="email" name="correo" id="correo" placeholder="Introduce tu email">
+                <br>
+                <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Escribe tu mensaje"></textarea>
+                <br>
+                <input type="submit" id="enviar" value="Enviar">
+                <br>
             </form>
         </section>
     </main>
@@ -84,4 +104,5 @@
         <p>Copyright &copy; 2024</p>
     </footer>
 </body>
+
 </html>
