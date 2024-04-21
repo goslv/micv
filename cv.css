@@ -11,18 +11,19 @@ body {
     font-family: "Josefin Sans", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+    background: #0e141df1;
+    color: #ddd;
 }
 
 header {
-    background-color: #6997DB;
+    
     text-align: center;
     padding: 25px;
-    color: aliceblue;
-    background-color: #6997DB;
+    color: #e4e4e4;
     text-align: center;
     border-radius: 5px;
     border: solid 1px;
-    border-color: rgb(0, 0, 0);
+    border-color: ffffff80;
     font-size: larger;
     animation: efecto1 5s linear infinite;
     margin-left: 20%;
@@ -30,7 +31,9 @@ header {
     font-family: "Josefin Sans", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+    box-shadow:10px 8px 5px 1px #ffffff80;
 }
+
 
 main {
     display:block;
@@ -44,7 +47,7 @@ nav {
     top: 10px;
     padding: 20px;
     margin: 0;
-    
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
 }
 
 nav a {
@@ -58,6 +61,7 @@ nav a {
 
 #acercademi {
     margin-top: 10%;
+    padding-top: 500px;
     top: 200px;
     width: 60%;
     margin: 5% 10%;
@@ -74,6 +78,7 @@ nav a {
     margin-bottom: 10%;
     border: 1px solid #ddd;
     border-radius: 10px;
+    
 }
 
 #experiencia {
@@ -99,28 +104,62 @@ nav a {
     width: 60%;
     margin: 5% 10%;
     padding: 10%;
+    color: aliceblue;
     margin-bottom: 10px;
     border: 1px solid #ddd;
     text-align: center;
     border-radius: 10px;
 }
 
-#contacto input {
+#contacto form input[type="text"]{
     display: block;
     width: 70%;
+    margin: auto;
+    padding: 2%;
+    color: aliceblue;
+    border: 1px solid #ddd;
+    text-align: center;
+    border-radius: 5px;
+    background: #0e141df1;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#contacto form input[type="email"]{
+    display: block;
+    width: 70%;
+    margin: auto;
+    color: aliceblue;
+    padding: 2%;
+    border: 1px solid #ddd;
+    text-align: center;
+    border-radius: 5px;
+    background: #0e141df1;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#contacto form textarea {
+    width: 60%;
+    color: aliceblue;
+    margin: 0 0 10px 0;
+    padding: 3%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: 1px solid;
+    background: #0e141df1;
+}
+
+#contacto form input[type="submit"]{
+    display: block;
+    width: 70%;
+    color: aliceblue;
     margin: auto;
     padding: 2%;
     border: 1px solid #ddd;
     text-align: center;
     border-radius: 5px;
-}
-
-#contacto textarea {
-    width: 60%;
-    margin: 0 0 10px 0;
-    padding: 3%;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+    cursor:pointer;
+    box-shadow: 1px 1px 0px 1px rgba(0, 0, 0, 0.5);
+    background: #0e141df1;
 }
 
 #habilidades ul,
@@ -129,6 +168,7 @@ nav a {
     list-style: none;
     padding: 0;
     margin-left: 20px;
+
 }
 
 #habilidades ul li {
@@ -137,6 +177,8 @@ nav a {
     border: 1px solid #ddd;
     border-radius: 5px;
     margin-right: 10px;
+    background: #18151F;
+    animation: efecto2 10s alternate infinite;
 }
 
 #experiencia ul li {
@@ -148,7 +190,7 @@ nav a {
 }
 
 .menufijo {
-    background-color: #f0f6ff3a;
+    background-color: #f0f6ff13;
     top: 0;
     position: fixed;
     width: 100%;
@@ -172,6 +214,11 @@ nav a {
 }
 .acercademi:hover{
     scale: 1.1;
+    text-shadow: 20px 1px 2px 1px #ffffff80;
+}
+.acercademi text:hover{
+    scale: 1.1;
+    box-shadow: 2px 1px 20px 1px #ffffff80;
 }
 .habilidades:hover{
     scale: 1.1;
@@ -185,10 +232,39 @@ nav a {
 
 @keyframes efecto1 {
     0% {
-        background-color: #6997DB;
+        background-color: #243f68;
+        
+    }
+    25%{
+        
     }
 
     50% {
         background-color: #1e304d;
+        
+    }
+    75%{
+        
+    }
+    100%{
+        background-color: #243f68;
+    
+    }
+}
+@keyframes efecto2{
+    0%{
+        color: #ffffffb7;
+    }
+    25%{
+        color: #dddddd00;
+    }
+    50%{
+        color: #ffffff;
+    }
+    75%{
+        color: #dddddd00;
+    }
+    100%{
+        color: #ffffffb7;
     }
 }
