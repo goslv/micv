@@ -59,6 +59,10 @@ nav a {
 
 }
 
+footer{
+    text-align: center;
+}
+
 #acercademi {
     margin-top: 10%;
     padding-top: 500px;
@@ -189,6 +193,10 @@ nav a {
     margin-bottom: 10px;
 }
 
+#whatsapp{
+    
+}
+
 .menufijo {
     background-color: #f0f6ff13;
     top: 0;
@@ -210,8 +218,16 @@ nav a {
 }
 .material-symbols-outlined:hover{
     scale: 1.2;
-
 }
+
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
 .acercademi:hover{
     scale: 1.1;
     text-shadow: 20px 1px 2px 1px #ffffff80;
